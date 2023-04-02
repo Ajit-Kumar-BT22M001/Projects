@@ -1,0 +1,10 @@
+Routh-Hurwitz Table Generator
+This is a tool for generating the Routh-Hurwitz table of a polynomial, which can be used to determine the stability of a linear system.
+
+The Routh-Hurwitz table is a table of coefficients that can be used to determine whether a linear system is stable or not. Specifically, the table is constructed using the coefficients of a polynomial and it can determine the number of roots with positive real parts.
+
+This tool takes a polynomial as input, and generates the corresponding Routh-Hurwitz table as a LaTeX-formatted output. The tool is built using Python and PyQt5, and it provides a simple graphical user interface for entering the polynomial and displaying the table.
+
+To use the tool, simply enter the coefficients of the polynomial separated by commas, with the highest-order term first, and click the "Compute" button to generate the Routh-Hurwitz table. The resulting table can then be copied and pasted into a LaTeX document for further use.
+
+This tool is open source and available on GitHub at https://github.com/AjitKumar-Bio/routh-hurwitz-table-generator. Contributions and feedback are welcome!
